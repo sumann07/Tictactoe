@@ -164,32 +164,42 @@ class App extends React.Component {
         />
       );
     return (
-      <div>
-        <div class="container jumbotron" id="container">
-          
-          <div className="choose">
-            <h4>Choose your play mode</h4>
-          <button className="button">
+      <div className="main">
+
+        <div class="container" >
+        <div className="choose">
+         
+          <img className="image-1" src="https://lh3.googleusercontent.com/proxy/Z4gWFUq_b583bpVbeO8TD_SoZk6mIRaYJEeXVoDZPSXWJ7IE9kZp1xsQ9W0cfdPSZ3CXfbkBBa33rrUwQPlWKyrpnsIzXYkL1gNJ" alt=""/>
+          <img className="image-2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/O-Train_icon.png/481px-O-Train_icon.png" alt=""/>  
+            <div className="heading">Choose your play mode</div>
+            <div className="btn">
+          <button className="button-1">
             <a href="./?AI" onClick={this.handleModeChange} id="ai">
               With AI
             </a></button>{" "}
             
-           <button className="button">
+           <button className="button-2">
               <a href="./?2P" onClick={this.handleModeChange} id="twop">
               {" "}
               With a friend
             </a></button><br></br>{" "}
-            
+<img className="setting" src="https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/16636837041579252561-512.png" alt=""/>
+            </div>
             
           </div>
+          
+          </div>
+        <div className="container jumbotron" id="container">
+          
+         
           
           
           <div>
             <div className="board">{rows}</div>
-          <p class="alert alert-success" role="alert" id="message1"></p>
-          <p class="alert alert-info" role="alert" id="message2"></p>
+          <p className="alert alert-success" role="alert" id="message1"></p>
+          <p className="alert alert-info" role="alert" id="message2"></p>
         </div>
-        <button className="button" onClick={this.handleReset}>
+        <button className="button" onClick={this.handleReset} >
               {" "}
               Reset
             </button>

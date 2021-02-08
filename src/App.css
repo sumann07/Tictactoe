@@ -30,12 +30,24 @@
 }
 
 .board {
-  margin: 0 33%;
-  max-width: 190px;
+  
+  padding: 80px 20px 0 20px;
+  width: 230px;
 }
 
 .container {
   text-align: center;
+}
+.main{
+  display: flex;
+}
+.image-1 {
+height: 70px;
+width: 70px;
+}
+.image-2 {
+  height: 60px;
+  width: 60px;
 }
 
 #ai {
@@ -45,36 +57,85 @@
   text-decoration: none;
 }
 
-#container {
-  width: 500px;
+.container {
+  width: 300px;
   height: 550px;
   margin-top: 30px;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  background: url(https://simg.nicepng.com/png/small/258-2584276_clipart-resolution-6121194-mobile-frame-png-white.png);
 }
-.button{
+.choose {
+  padding-top: 120px;
+}
+ .heading {
+   padding-top: 20px;
+  font-size: 14px;
+font-weight: bolder;
+ color: #5b5b5b;
+ }
+
+ #ai {
+   color: #fff;
+ }
+.button-1 {
 width: 140px;
 height: 45px;
 font-size: 12px;
 text-transform: uppercase;
 letter-spacing: 1.5px;
 font-weight: 500;
-color: #000;
-background-color: #fff;
+color: #fff;
+background-color: #75cfb8;
 border: none;
 border-radius: 45px;
 box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 transition: all 0.3s ease 0s;
 cursor: pointer;
 outline: none;
-margin-top:10px;
-margin-bottom: 30px;
+margin-bottom: 20px;
 
 }
-
-.button:hover {
-background-color: #2EE59D;
-box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
-color: #fff;
-transform: translateY(-7px);
-
+.button-2 {
+  width: 140px;
+  height: 45px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 20px;
+  
+  }
+.btn {
+  padding-top: 30px;
 }
+
+.setting {
+  width: 20px;
+  height: 20px;
+}
+.button {
+  width: 55px;
+  height: 45px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+  color: red;
+  background:url(https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/16636837041579252561-512.png);
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  margin-top: 20px;
+  
+  }
